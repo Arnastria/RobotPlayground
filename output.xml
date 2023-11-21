@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.8.3 on win32)" generated="20231113 21:31:41.937" rpa="false" schemaversion="4">
+<suite id="s1" name="testSelenium" source="D:\Arnas\Code\robot-framework\playground\tests\testSelenium.robot">
+<test id="s1-t1" name="TEST 1" line="7">
+<kw name="Log" library="BuiltIn">
+<arg>Start testing selenium, opening browser</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20231113 21:31:42.115" level="INFO">Start testing selenium, opening browser</msg>
+<status status="PASS" starttime="20231113 21:31:42.115" endtime="20231113 21:31:42.115"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>url=https://todomvc.com/examples/angularjs/#/</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231113 21:31:42.115" level="INFO">Opening browser 'chrome' to base url 'https://todomvc.com/examples/angularjs/#/'.</msg>
+<status status="PASS" starttime="20231113 21:31:42.115" endtime="20231113 21:31:47.831"/>
+</kw>
+<status status="PASS" starttime="20231113 21:31:42.114" endtime="20231113 21:31:47.831"/>
+</test>
+<doc>Selenium test</doc>
+<status status="PASS" starttime="20231113 21:31:41.939" endtime="20231113 21:31:47.832"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="testSelenium">testSelenium</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

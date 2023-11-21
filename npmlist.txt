@@ -1,0 +1,6 @@
+C:\Program Files\nodejs -> .\
+├── appium@1.22.3
+├── corepack@0.17.0
+├── npm@9.5.1
+└── yarn@1.22.19
+
